@@ -4,10 +4,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.log4testng.Logger;
 
-public class FoodCompanyManage extends BasePage{
-	Logger logger = Logger.getLogger(FoodCompanyManage.class);
+public class FoodCompanyManagePage extends BasePage{
+	Logger logger = Logger.getLogger(FoodCompanyManagePage.class);
 	public WebDriver driver;
-	public FoodCompanyManage(WebDriver driver) {
+	public FoodCompanyManagePage(WebDriver driver) {
 		super(driver);
 		this.driver = driver;
 	}
