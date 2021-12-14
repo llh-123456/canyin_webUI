@@ -9,7 +9,9 @@ public class FoodCompanyManagePage extends BasePage{
 	public WebDriver driver;
 	public FoodCompanyManagePage(WebDriver driver) {
 		super(driver);
+		super.FilePath = "element\\foodcompany.properties";
 		this.driver = driver;
+		
 	}
 	//获取市场区域管理菜单元素
 	public WebElement GetAreaMenuEle() throws Exception {
