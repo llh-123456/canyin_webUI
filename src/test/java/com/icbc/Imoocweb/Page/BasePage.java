@@ -103,7 +103,27 @@ public class BasePage {
 		return mobile;
 		
 	}
-
+	//子商户随机数AAAA0001
+	public String Merchant_ID() {
+		StringBuffer sr = new StringBuffer();
+		Random rm = new Random();
+		for(int i=0;i<4;i++) {
+			sr.append(rm.nextInt(10));
+		}
+		String str = sr.toString();
+		String merchant_id="AAAA"+str;
+		return merchant_id;
+	}
+	//邮箱
+	public String RandomEmail() {
+		StringBuffer sr = new StringBuffer();
+		Random rm = new Random();
+		for(int i=0;i<3;i++) {
+			sr.append(rm.nextInt(10));
+		}
+		String random_email=sr.toString()+"@qq.com";
+		return random_email;
+	}
 	
 
 }

@@ -63,6 +63,7 @@ public class FoodCompanyManagePage extends BasePage{
 	//配餐公司手机号sendkey
 	public void SendkeyMobile() {
 		logger.debug("配餐公司手机号sendkey");
+		
 	}
 	
 	//获取配餐公司邮箱元素
