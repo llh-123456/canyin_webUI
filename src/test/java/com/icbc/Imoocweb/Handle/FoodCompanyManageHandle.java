@@ -7,6 +7,7 @@ public class FoodCompanyManageHandle extends BaseHandle{
 	public FoodCompanyManageHandle(WebDriver driver) {
 		super(driver);
 		
+		
 	}
 
 }
