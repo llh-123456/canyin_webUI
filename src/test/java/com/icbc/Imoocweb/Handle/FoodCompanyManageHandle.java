@@ -71,24 +71,33 @@ public class FoodCompanyManageHandle extends BaseHandle{
 	}
 	//点击修改配餐公司名称
 	public void ClickEditFoodCompName() throws Exception {
+		foodcompanypage.GetEditFoodCompNameEle().clear();
 		foodcompanypage.GetEditFoodCompNameEle().sendKeys(foodcompanypage.SendkeyEditFoodCompName());
 	}
 	//点击修改配餐公司联系人
 	public void ClickEditFoodCompContact() throws Exception {
+		foodcompanypage.GetEditFoodCompContactEle().clear();
 		foodcompanypage.GetEditFoodCompContactEle().sendKeys(foodcompanypage.SendkeyEditFoodCompContact());
 	}
 	
 	//点击修改配餐公司手机号
 	public void ClickEditFoodCompMobile() throws Exception {
+		foodcompanypage.GetEditFoodCompMobileEle().clear();
 		foodcompanypage.GetEditFoodCompMobileEle().sendKeys(foodcompanypage.PhoneNumber());
 	}
 	//点击修改配餐公司邮箱
 	public void ClickEditFoodCompMail() throws Exception {
+		foodcompanypage.GetEditFoodCompMailEle().clear();
 		foodcompanypage.GetEditFoodCompMailEle().sendKeys(foodcompanypage.RandomEmail());
 	}
 	//点击修改配餐公司地址
 	public void ClickEditFoodCompAdress() throws Exception {
+		foodcompanypage.GetEditFoodCompAddressEle().clear();
 		foodcompanypage.GetEditFoodCompAddressEle().sendKeys(foodcompanypage.SendkeyEditFoodCompAdress());
+	}
+	//点击保存
+	public void ClickEditSave() throws Exception {
+		foodcompanypage.GetEditFoodCompSaveEle().click();
 	}
 
 }

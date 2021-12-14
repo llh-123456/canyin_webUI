@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.icbc.Imoocweb.Case.EducationCase">
+      <class name="com.icbc.Imoocweb.Case.FoodCompanyMangeCase">
         <methods>
-          <include name="AddEducationCase"/>
-          <include name="afterclass"/>
           <include name="beforeclass"/>
+          <include name="afterclass"/>
+          <include name="EditFoodCompany"/>
         </methods>
-      </class> <!-- com.icbc.Imoocweb.Case.EducationCase -->
+      </class> <!-- com.icbc.Imoocweb.Case.FoodCompanyMangeCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

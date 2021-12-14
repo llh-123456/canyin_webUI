@@ -43,6 +43,7 @@ public class ProUtil {
 		String Value;
 		if(Pro.containsKey(key)) {
 			Value = Pro.getProperty(key);
+			System.out.println(Value);
 			return Value;
 		}else {
 			return "";
