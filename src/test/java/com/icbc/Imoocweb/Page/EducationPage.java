@@ -5,10 +5,8 @@ import org.openqa.selenium.WebElement;
 
 public class EducationPage extends BasePage{
 	Logger logger = Logger.getLogger(EducationPage.class);
-	//public WebDriver driver;
 	public EducationPage(WebDriver driver) {
 		super(driver);
-		//this.driver = driver;
 		super.FilePath = "element\\education.properties";
 	}
 	//获取市场区域管理菜单元素位置
